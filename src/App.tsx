@@ -1,13 +1,13 @@
 import './App.css'
 import DefaultLayout from './layout/default'
-import QuizPage from './pages/quiz/views'
+import QuizComponent from './pages/quiz/views'
 
 function App() {
 
   return (
     <>
       <DefaultLayout>
-        <QuizPage />
+        <QuizComponent />
       </DefaultLayout>
     </>
   )
