@@ -1,0 +1,18 @@
+.bottomButton {
+    width: 240px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: rgba(116, 116, 117, 1);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.questionBottom {
+    height: 100px;
+    background-color: rgba(244, 243, 246, 1);
+    display: flex;
+    align-items: center;
+}

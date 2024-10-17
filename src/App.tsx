@@ -1,10 +1,14 @@
 import './App.css'
+import DefaultLayout from './layout/default'
+import QuizPage from './pages/quiz/views'
 
 function App() {
 
   return (
     <>
-      <h1>Hi</h1>
+      <DefaultLayout>
+        <QuizPage />
+      </DefaultLayout>
     </>
   )
 }
